@@ -19,7 +19,6 @@ buttons.forEach((btn) => {
         image.classList.add("changing");
         image.setAttribute("src", `img/iphone_${id}.jpg`);
 
-        console.log('hello')
 
         setTimeout(() =>{
             image.classList.toggle("changing");
